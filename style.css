@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Montserrat', system-ui;
+    color:#BBBBBB;
+    background-color: #14182D;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+header{
+    display: inline;
+}
+#responsive-width{
+    display:none;
+}
+#dropdown-list{
+    display:none;
+}
+nav{
+    background-color: #0D0F1B;
+    padding: 20px;
+    position:sticky;
+    top: 0;
+}
+nav li {
+    font-weight: 700;
+    display: inline;
+    padding: 5px 30px;
+}
+nav a,
+nav a :visited{
+    color: aliceblue;
+    font-weight: 700;
+    text-decoration: none;
+}
+nav a:hover, th, h1, h2 {
+    color: #36BDBD;
+}
+article{
+    padding: 20px;
+    margin-top: 20px;
+}
+th, td{
+    vertical-align: text-top;
+    text-align: start;
+    padding-right: 2em;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+
+}
+ul{
+    margin:0px auto;
+}
+article, ul{
+    background: #0D0F1B;
+}
+h1,h2,h3{
+    font-family: 'Orbitron', Roboto, system-ui;
+    text-align: center;
+}
+
+.profil header{
+    text-align:center;
+}
+footer {
+   padding: 20px;
+   color: aliceblue;
+   background-color: #0D0F1B;
+   text-align: center;
+}
+ul li, tr {
+    line-height: 2em;
+}
+.jumbotron-image{
+        width: 70%;
+        max-height: 700px;
+}
+.profile-image{
+    max-width:200px;
+}
+.jumbotron-desc{
+    text-align: end;
+    font-size: 30px;
+}
+
+.jumbotron{
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 12.5%;
+    padding-bottom: 100px;
+    background-color: #0D0F1B;
+    display: flex;
+}
+h1, h2{
+    line-height: 1em;
+}
+.card{
+    box-shadow: 0px 10px 39px 0px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    background-color: #141936;
+    margin-top: 20px;
+    padding:20px;
+    margin: 10px;
+    flex-basis: 50%;
+}
+.card ul{
+    background-color: #141936;
+}
+.featured-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.skill-set-list{
+    column-count: 2;
+}
+.container{
+    display: flex;
+}
+main{
+    display: flex;
+}
+footer{
+    margin-top: 20px;
+}
+aside{
+    padding-top:80px;
+    margin-top: 20px;
+    background-color: #0D0F1B;
+}
+#tambah{
+    display: none;
+}
+#btn{
+    font-family: 'Montserrat';
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-style: none;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background-color:#36BDBD;
+    color:#0D0F1B;
+    font-weight: 700;
+}
+#btn:hover {
+    background-color:#141936;
+    cursor: pointer;
+    color: #BBBBBB;
+}
+#dropdown:hover{
+    cursor:pointer;
+}
+@media screen and (max-width: 1000px) {
+
+    main, .container, .jumbotron{
+        flex-direction: column;
+    }
+    .container .featured-image{
+        text-align: center;
+    }
+    h1,h2{
+        text-align: center;
+    }
+    .jumbotron{
+        padding:0;
+    }
+    .jumbotron-image{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 70%;
+         margin-bottom: 20px;
+    }
+    .jumbotron-desc {
+        text-align: end;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    nav li {
+        display: block;
+        text-align: center;
+    }
+    #responsive-width {
+        display: inline;
+    }
+    #max-width{
+        display:none;
+    }
+}

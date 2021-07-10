@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Fikri-Submission</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div id="max-width">
+                    <li><a href="#pendidikan">Pendidikan</a></li>
+                    <li><a href="#pengalaman">Pengalaman</a></li>
+                    <li><a href="#skill-set">Skill-set</a></li>
+                    <li><a href="#kontak">kontak</a></li>
+                </div>
+                <div id="responsive-width">
+                    <span class="material-icons-outlined" id="dropdown" onclick="loadDropDown()">menu</span>
+                    <div id="dropdown-list">
+                        <li><a href="#pendidikan">Pendidikan</a></li>
+                        <li><a href="#pengalaman">Pengalaman</a></li>
+                        <li><a href="#skill-set">Skill-set</a></li>
+                        <li><a href="#kontak">kontak</a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <div>
+                <img src="assets/jumbotronsubmission.PNG" alt="jumbotron" class="jumbotron-image">
+            </div>
+            <div class="jumbotron-desc">
+                <h3>Hai, saya Fikri</h3>
+                <h1>Selamat datang</h1>
+                <h3>di Portofolio saya</h3>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div id="content">
+
+            <article id="pendidikan">
+                <h1>Pendidikan</h1>
+                <div class="container">
+                    <section class="card">
+                        <figure><img src="assets/netco.png" alt="sma" class="featured-image"></figure>
+                        <h2>SMA Negeri 3 Kota Jambi</h2>
+                        <table>
+                            <tr>
+                                <th>Tahun Lulus</th>
+                                <td>2018</td>
+                            </tr>
+                            <tr>
+                                <th>Nilai Akhir</th>
+                                <td>88.75</td>
+                            </tr>
+                            <tr>
+                                <th>Jurusan</th>
+                                <td>IPA</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="4" style="vertical-align: text-top;">Ekstrakulikuler</th>
+                                <td>Geografi</td>
+                            </tr>
+                            <tr>
+                                <td>Astronomi</td>
+                            </tr>
+                            <tr>
+                                <td>Basket</td>
+                            </tr>
+                            <tr>
+                                <td>Bahasa Jepang</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section class="card">
+                        <img src="assets/stis.png" alt="S-1" class="featured-image">
+
+                        <h2>Politeknik Statistika STIS</h2>
+                        <table>
+                            <tr>
+                                <th>Tahun Lulus</th>
+                                <td>2022</td>
+                            </tr>
+                            <tr>
+                                <th>IPK Sementara</th>
+                                <td>3.46</td>
+                            </tr>
+                            <tr>
+                                <th>Program Studi</th>
+                                <td>D-IV Komputasi Statistik (Sistem Informasi)</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="3" style="vertical-align: text-top;">Unit Kegiatan Mahasiswa</th>
+                                <td>Orchestra</td>
+                            </tr>
+                            <tr>
+                                <td>Stis Drawing Club</td>
+                            </tr>
+                            <tr>
+                                <td>Basket</td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+            </article>
+            <article id="pengalaman">
+                <h1>Pengalaman Organisasi & Lomba</h1>
+                <div class="container">
+                    <section class="card">
+                        <h2>Organisasi</h2>
+                        <ul>
+                            <li>Ketua Komunitas
+                                STIS Drawing Club
+                                periode 2019-2020</li>
+                            <li>Ketua Himpunan Mahasiswa Daerah
+                                Jambi STIS
+                                periode 2019-2020</li>
+                            <li>BPH UKM Basket
+                                periode 2019-2020</li>
+                            <li>Putra Daerah Jambi STIS
+                                periode 2019-2020</li>
+                            <li>Pelatih UKM Orchestra
+                                periode 2019-2020</li>
+                        </ul>
+                    </section>
+                    <section class="card">
+                        <h2>Lomba</h2>
+                        <ul>
+                            <li>Juara 2 Kompetisi Piano
+                                Tingkat kota Jambi (2017)</li>
+                            <li>Juara 1 Cover Musik STIS
+                                (2018)</li>
+                            <li>Juara 1 Cover Musik STIS
+                                (2019)</li>
+                            <li>Juara 2 Basket STIS
+                                (2019)</li>
+                            <li>Peserta Data Analytics Competition
+                                ITS (2020)</li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+            <article id="skill-set card">
+                <section class="card">
+                    <h1>Skill-set</h1>
+                    <ul class="skill-set-list">
+                        <li>Statistical Data Analysis</li>
+                        <li>Machine Learning</li>
+                        <li>Data Mining</li>
+                        <li>Web Development</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript Programming Language</li>
+                        <div id="titik">
+                            ...
+                        </div>
+                        <div id="tambah">
+                            <li>R Programming Language</li>
+                            <li>C++ Programming Language</li>
+                            <li>Python Programming Language</li>
+                            <li>PHP Programming Language</li>
+                            <li>Java Programming Language</li>
+                            <li>Codeigniter</li>
+                            <li>Django</li>
+                            <li>Weka</li>
+                            <li>Tableau</li>
+                            <li>Excel</li>
+                        </div>
+                    </ul>
+                    <button onclick="loadmore()" id="btn">muat lebih banyak</button>
+                </section>
+            </article>
+
+        </div>
+
+        <aside>
+            <article class="profil card">
+                <header>
+                    <h2>Profil</h2>
+                    <figure>
+                        <img src="assets/profil.png" alt="profil" class="profile-image">
+                    </figure>
+                </header>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Fikri Septrian Anggara</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>26 September 2000</td>
+                        </tr>
+                        <tr>
+                            <th>Tempat Lahir</th>
+                            <td>Kota Jambi, Jambi</td>
+                        </tr>
+                        <tr>
+                            <th>Pekerjaan</th>
+                            <td>Mahasiswa</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+
+    </main>
+
+    <footer>
+        <article id="kontak">
+            <section>
+                <ul>
+                    <li><span class="material-icons-outlined">
+                            email
+                        </span> fikriseptriananggara@gmail.com</li>
+                    <li><span class="material-icons-outlined">
+                            phone
+                        </span> 085283076606</li>
+                </ul>
+            </section>
+        </article>
+        <p>&copy; Fikri 2021</p>
+    </footer>
+
+</body>
+
+</html>
